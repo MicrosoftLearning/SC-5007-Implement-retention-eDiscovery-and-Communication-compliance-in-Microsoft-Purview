@@ -1,7 +1,7 @@
 ---
 lab:
     task: 'Configure Retention Policies'
-    exercise: 'Exercise 1 - Implement Data Lifecycle and Records Management'
+    exercise: 'Exercise 1 - Configure Retention Policies'
 ---
 
 ## WWL Tenants - Terms of use

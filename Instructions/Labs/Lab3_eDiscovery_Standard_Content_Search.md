@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Skill 3 - Case investigation with eDiscovery (Standard) and content search'
-    module: 'Module - Monitor and investigate data and activities by using Microsoft Purview'
+    title: 'Case investigation with eDiscovery (Premium)'
+    module: 'Exercise 3 - Case investigation with eDiscovery (Premium)'
 ---
 
 # Lab 4 - Exercise 2 - eDiscovery (Standard) and Content search

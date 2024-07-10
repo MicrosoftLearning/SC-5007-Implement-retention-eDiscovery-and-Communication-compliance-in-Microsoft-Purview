@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Skill 4 - Configure Communication Compliance'
-    module: 'Module - Configure Communication Compliance'
+    title: 'Configure Communication Compliance'
+    module: 'Exercise 4 - Configure Communication Compliance'
 ---
 ## WWL Tenants - Terms of use
 
