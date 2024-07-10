@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Configure Communication Compliance'
-    module: 'Exercise 4 - Configure Communication Compliance'
+    task: 'Configure Communication Compliance'
+    exercise: 'Exercise 4 - Configure Communication Compliance'
 ---
 ## WWL Tenants - Terms of use
 

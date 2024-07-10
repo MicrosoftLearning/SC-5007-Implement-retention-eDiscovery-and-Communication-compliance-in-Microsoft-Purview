@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Case investigation with eDiscovery (Premium)'
-    module: 'Exercise 3 - Case investigation with eDiscovery (Premium)'
+    task: 'Case investigation with eDiscovery (Premium)'
+    exercise: 'Exercise 3 - Case investigation with eDiscovery (Premium)'
 ---
 
 # Lab 4 - Exercise 2 - eDiscovery (Standard) and Content search
