@@ -1,4 +1,4 @@
-# INF99X: Sample Course
+# Implement retention, eDiscovery, and Communication compliance in Microsoft Purview
 
 **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 
