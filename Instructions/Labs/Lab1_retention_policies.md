@@ -12,7 +12,7 @@ Tenants should not be shared or used for purposes outside of hands-on labs. The 
 
 Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time.
 
-# Skilling tasks
+# Exercise 2 skilling tasks
 
 Your task is to create and manage retention policies that meet the required criteria:
 
@@ -20,7 +20,6 @@ Your task is to create and manage retention policies that meet the required crit
 - **Location-based retention policies**: Create retention policies for specific locations, such as Teams channels and chats, including specific users.
 - **PowerShell retention policies**: Implement retention policies using PowerShell.
 - **Adaptive scope policies**: Create and apply retention policies with adaptive scopes for departments like legal and retail.
-- **Test adaptive scope policy**: Verify the users affected by the adaptive scope and test the policy.
 
 ## Task 1 – Create company-wide retention policy
 
