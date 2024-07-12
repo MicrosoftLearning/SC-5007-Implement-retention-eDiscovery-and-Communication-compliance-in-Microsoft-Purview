@@ -119,7 +119,7 @@ With custodians added, you can now run a collection estimate to get an overview 
 1. On the **Review your collection and create it** page, select **Submit**, then select **Done** on the **New collection created** page.
 1. Back on the **Collections** page, review the progress of your collection estimate. Use the **Refresh** button to refresh the page and check the status of the collection estimate. Once the status of your estimate updates to **Estimated**, and the **Preview status** updates to **Successful**, your collection estimate is complete.
 
-   >[!hint] **Tip**: Once your collection estimate is complete, feel free to experiment building different queries or using the KQL editor for more advanced searches. To do this, select the checkbox to the left of the collection estimate and select **Edit collection**. This will take you directly to the **Define your search query** page. You can modify your query and submit a new collection estimate to explore how your query changes your collection estimate.
+   >[!note] **Tip**: Once your collection estimate is complete, feel free to experiment building different queries or using the KQL editor for more advanced searches. To do this, select the checkbox to the left of the collection estimate and select **Edit collection**. This will take you directly to the **Define your search query** page. You can modify your query and submit a new collection estimate to explore how your query changes your collection estimate.
 
     >![Screenshot showing Refresh button and the collection estimate status.](./Media/collection-estimate-status.png)
 
@@ -203,6 +203,6 @@ To save your work and enable further analysis, you will export the search result
 1. Select the **LegalCaseExport_July2024** export.
 1. On the **LegalCaseExport_July2024** fly-out page on the right, select the checkbox next to the left of each exported file and select **Download**. This will download a .csv summary and a zip file of exported items.
 
-   >[!hint] **Tip**: You might need to disable your pop-up blocker to successfully download exported files.
+   >[!note] **Tip**: You might need to disable your pop-up blocker to successfully download exported files.
 
 You have successfully exported the search results for review.
