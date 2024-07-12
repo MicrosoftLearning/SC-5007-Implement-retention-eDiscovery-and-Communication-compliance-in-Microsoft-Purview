@@ -12,7 +12,7 @@ Tenants should not be shared or used for purposes outside of hands-on labs. The 
 
 Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time.
 
-# Exercise 2 skilling tasks
+# Exercise 1 skilling tasks
 
 Your task is to create and manage retention policies that meet the required criteria:
 
