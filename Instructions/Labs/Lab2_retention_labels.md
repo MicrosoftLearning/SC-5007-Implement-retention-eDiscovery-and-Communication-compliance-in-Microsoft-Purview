@@ -75,7 +75,7 @@ Following Task 1, you will now publish the retention labels so they are availabl
 1. You should still be on the **File plan** page in the Microsoft Purview portal. If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select **View all solutions**, then select **Records Management** > **File plan**.
 1. Select the check mark next to the **Financial Records** retention label, then select the **Publish labels** button.
 
-    ![Screenshot showing where to select the retention label and the publish labels button.](./Media/publish-labels.png)
+    >![Screenshot showing where to select the retention label and the publish labels button.](./Media/publish-labels.png)
 
 1. On the **Choose labels to publish** page, the **Financial Records** retention label should be displayed.
 1. Select **Next**.
@@ -113,7 +113,7 @@ Following Task 1, you will now auto-apply the HR Records retention label so that
 1. On the **Choose the type of content you want to apply this label to** page select **Apply label to content that contains sensitive info** then select **Next**.
 1. On the **Content that contains sensitive info page**, select the **Enhanced** category and the the **U.S. Personally Identifiable Information (PII) Data Enhanced regulation**, then select **Next**.
 
-    ![Screenshot showing the PII sensitive information type selected for an auto-apply retention label.](./Media/sensitive-info-pii.png)
+    >![Screenshot showing the PII sensitive information type selected for an auto-apply retention label.](./Media/sensitive-info-pii.png)
 
 1. On the **Define content that contains sensitive info** page, leave the defaults selected, then select **Next**.
 1. On the **Policy Scope** page select **Next**.

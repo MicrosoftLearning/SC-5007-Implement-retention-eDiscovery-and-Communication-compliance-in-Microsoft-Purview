@@ -87,7 +87,7 @@ You have successfully created a retention policy for various locations. This pol
 
 1. For the **Teams chat and Copilot interactions** location, select the **Edit** link under **All users** and add two users.
 
-    ![Screenshot showing the Add users option for Teams chats and Copilot interactions.](./Media/add-users-retention-policy.png)
+    >![Screenshot showing the Add users option for Teams chats and Copilot interactions.](./Media/add-users-retention-policy.png)
 
 1. On the **Teams chats and Copilot interactions** flyout page, once the users are added, select **Done** then select **Next**.
 1. **On the Decide if you want to retain content, delete it, or both** page, enter:
