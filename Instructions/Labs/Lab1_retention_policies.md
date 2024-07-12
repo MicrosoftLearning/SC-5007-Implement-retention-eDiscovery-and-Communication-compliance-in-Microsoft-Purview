@@ -28,12 +28,12 @@ In this exercise you will create a company-wide retention policy, apply a retent
 1. In Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in.
 1. A message about the new Microsoft Purview portal will appear on the screen. Select the option to agree with the terms of data flow disclosure and the privacy statement, then select **Try now**.
 
-    ![Screenshot showing the Welcome to the new Microsoft Purview portal screen.](./Media/welcome-purview-portal.png)
+    >![Screenshot showing the Welcome to the new Microsoft Purview portal screen.](./Media/welcome-purview-portal.png)
 
 1. Select **View all solutions**.
 1. Under **Data Governance** select the **Data Lifecycle Management** card.
 
-    ![Screenshot showing the Data Lifecycle Management card in the new Microsoft Purview portal.](./Media/data-lifecycle-management-card.png)
+    >![Screenshot showing the Data Lifecycle Management card in the new Microsoft Purview portal.](./Media/data-lifecycle-management-card.png)
 
 1. Expand **Policies** then select **Retention policies** from the left navigation pane.
 1. Select **+ New retention policies**.
