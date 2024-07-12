@@ -4,13 +4,35 @@ lab:
     exercise: 'Exercise 3 - Case investigation with eDiscovery (Premium)'
 ---
 
-# Lab 4 - Exercise 2 - eDiscovery (Standard) and Content search
+## WWL Tenants - Terms of use
 
-You are Joni Sherman, the Compliance Administrator for Contoso Ltd. Currently, Contoso Ltd. is dealing with a wrongful termination lawsuit filed by a former employee. As part of your responsibility, you are entrusted with the task of preserving the necessary electronic data relevant to the case. To accomplish this, you will use eDiscovery (Standard) to identify and secure the relevant information. By using eDiscovery techniques, you'll make sure that Contoso Ltd. can meet its legal obligations by preserving and accessing the necessary electronic evidence for the lawsuit.
+If you are being provided with a tenant as a part of an instructor-led training delivery, please note that the tenant is made available for the purpose of supporting the hands-on labs in the instructor-led training.
 
-## Task 1 - Create an eDiscovery (Standard) Case
+Tenants should not be shared or used for purposes outside of hands-on labs. The tenant used in this course is a trial tenant and cannot be used or accessed after the class is over and are not eligible for extension.
 
-In this task, you will create an eDiscovery (Standard) case as Joni Sherman.
+Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time.
+
+# Skilling tasks
+
+## Task 1 - Create an eDiscovery (Premium) case
+
+1. In Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in.
+1. Select **View all solutions**.
+1. Under **Risk & Compliance** select the **eDiscovery** card.
+1. From the left navigation pane, expand **Premium cases**, then select **Cases**.
+1. On the **eDiscovery (Premium)** page, select **+ Create a case**.
+
+
+
+
+
+
+
+
+
+
+
+
 
 1. Log into the Client 1 VM (LON-CL1) as the **lon-cl1\admin** account.
 
