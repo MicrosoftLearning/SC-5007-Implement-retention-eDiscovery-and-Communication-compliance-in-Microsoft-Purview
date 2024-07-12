@@ -23,7 +23,7 @@ Your task is to create and manage retention policies that meet the required crit
 
 ## Task 1 – Create company-wide retention policy
 
-In this exercise you will create a company-wide retention policy, apply a retention period, and set the locations that the policy will be applied to.
+Here, you will create a retention policy that applies to the entire organization.
 
 1. In Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in.
 1. A message about the new Microsoft Purview portal will appear on the screen. Select the option to agree with the terms of data flow disclosure and the privacy statement, then select **Try now**.
@@ -66,9 +66,16 @@ In this exercise you will create a company-wide retention policy, apply a retent
 
 You have successfully created a retention policy for various locations. This policy retains items for three years from the last modified date.
 
+You have successfully created a company-wide retention policy that retains items for three years from the last modified date.
+
 ## Task 2 – Create location-based Retention policies with filter
 
-1. You should still be on the **Retention policies** screen in the Microsoft Purview portal. If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select the **Data Lifecycle Management** > **Policies** > **Retention policies**  card once logged in.
+Here, you will create retention policies specifically for Teams channels and chats, including filters for specific users.
+
+1. You should still be on the **Retention policies** screen in the Microsoft Purview portal.
+
+   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select the **Data Lifecycle Management** > **Policies** > **Retention policies**  card once logged in.
+
 1. Select **+ New retention policy**.
 1. On the **Name your retention policy** page, enter the Name and Description:
 
@@ -102,6 +109,8 @@ You have successfully created a retention policy for various locations. This pol
 You have successfully created a retention policy for Teams locations with a three-year retention period, applying a filter for specific users.
 
 ## Task 3 - Create retention policy via PowerShell
+
+In this task, you will use PowerShell to create and manage retention policies.
 
 1. Open an elevated PowerShell window.
 1. Enter the following cmdlet to install the latest Exchange Online PowerShell module version:
@@ -144,9 +153,11 @@ You have successfully created retention policies through PowerShell with a three
 
 ## Task 4 – Create retention policy with adaptive scope
 
+Here, you will create a retention policy with adaptive scope targeting specific departments like Legal and Retail.
+
 1. In Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in.
 1. Select **View all solutions**.
-1. Under **Core** select the *Settings** card.
+1. Under **Core** select the **Settings** card.
 1. Expand **Roles and scopes** then select **Adaptive scopes**.
 1. On the **Adaptive scopes** page select **+ Create scope**.
 1. On the **Name your adaptive policy scope page**, enter:
@@ -170,7 +181,7 @@ You have successfully created retention policies through PowerShell with a three
    - **Operator**: is equal to
    - **Value**: Retail
 
-    ![Screenshot showing the query to define users values.](./Media/query-to-define-users.png)
+    >![Screenshot showing the query to define users values.](./Media/query-to-define-users.png)
 
 1. Select **Next** and then **Submit** on the **Review and finish** page.
 1. Once your scope has been created select **Done** to get back to the **Adaptive scopes** page.

@@ -57,12 +57,12 @@ Now that you have the necessary permissions, you can create a new eDiscovery cas
 1. Under **Risk & Compliance** select the **eDiscovery** card.
 1. From the left navigation pane, expand **Premium cases**, then select **Cases**.
 1. On the **eDiscovery (Premium)** page, select **+ Create a case**.
-1. On the **Name your case** fly out page on the right, enter:
+1. On the **Name your case** fly-out page on the right, enter:
 
    - **Name**: `Legal Investigation 2024`
    - **Description**: `eDiscovery case for the 2024 legal investigation involving relevant emails and documents.`
 
-1. On the **Add team members and configure settings** page, select **Next**.
+1. On the **Add team members and configure settings** page, ensure to add the user that will be conducting the investigation, and select **Next**.
 1. On the **Review your case** page, select **Submit**, then select **Done**.
 
 You have successfully created a new eDiscovery case named _Legal Investigation 2024_.
@@ -73,11 +73,11 @@ Now that your case is created, you need to add custodians. Custodians are indivi
 
 1. After creating the case in the previous task, you should be in the **Overview** tab of the **Legal Investigation 2024** case.
 
-   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select **eDiscovery** card under the **Risk & Compliance** section. Select **Premium Cases** > **Cases**, and select the newly created **Legal Investigation 2024** case.
+   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select **eDiscovery** card under the **Risk & Compliance** section. Select **Premium Cases** > **Cases** and select the newly created **Legal Investigation 2024** case.
 
 1. Select the **Data sources** tab from the top navigation, then select **Add data source** > **Add new custodians**.
 1. On the **New custodian** fly-out page, under **Select custodian** add custodians to your case, then select **Next**.
-1. On the **Hold settings** page, ensure the custodians you added are select to place on hold.
+1. On the **Hold settings** page, ensure the custodians you added in the previous step are selected to place on hold.
 1. On the **Review your custodians** page, select **Submit**, then select **Done** once your new custodians are created.
 
 You have successfully added custodians to the _Legal Investigation 2024_ case.
@@ -88,7 +88,7 @@ With custodians added, you can now run a collection estimate to get an overview 
 
 1. After adding custodians to the case in the previous task, you should still be in the **Data sources** tab of the **Legal Investigation 2024** case.  
 
-   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select **eDiscovery** card under the **Risk & Compliance** section. Select **Premium Cases** > **Cases**, and select the newly created **Legal Investigation 2024** case.
+   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select **eDiscovery** card under the **Risk & Compliance** section. Select **Premium Cases** > **Cases** and select the newly created **Legal Investigation 2024** case.
 
 1. Select the **Collections** tab from the top navigation, then select **+ New collection**.
 1. In the **New collection** configuration, give the collection a **Name and description**. Enter:
@@ -145,7 +145,7 @@ Once the collection is satisfactory, commit it to a review set for detailed anal
 1. Select the **Legal Data Collection** collection.
 1. On the **Legal Data Collection** fly-out page on the right, select **Commit collection**.
 1. On the **Commit items to a review set** page, ensure the **Add to new review set** option is selected, and name it `Legal Case Review`.
-1. Leave the other defaults selected, and select **Commit** to commit the collection to a review set.
+1. Leave the other defaults selected and select **Commit** to commit the collection to a review set.
 
 You have successfully committed the collection to a review set.
 
@@ -201,8 +201,8 @@ To save your work and enable further analysis, you will export the search result
 1. You should get a notification stating **A job has been created** to export your review set. Select **OK** on this notification.
 1. To access your exported review set, expand **Premium Cases** from the left navigation pane, then select **Cases**. Select the **Legal Investigation 2024** case then the **Exports** tab from the top navigation.
 1. Select the **LegalCaseExport_July2024** export.
-1. On the **LegalCaseExport_July2024** fly-out page on the right, select the checkbox next to the each exported file and select **Download**. This will download a .csv summary and a zip file of exported items.
+1. On the **LegalCaseExport_July2024** fly-out page on the right, select the checkbox next to the left of each exported file and select **Download**. This will download a .csv summary and a zip file of exported items.
 
-   >[!tip] You might need to disable your pop up blocker in order to successfully download exported files.
+   >[!tip] You might need to disable your pop-up blocker to successfully download exported files.
 
 You have successfully exported the search results for review.
