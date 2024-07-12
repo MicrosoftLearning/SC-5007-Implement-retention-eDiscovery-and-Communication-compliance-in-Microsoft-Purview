@@ -113,7 +113,7 @@ With custodians added, you can now run a collection estimate to get an overview 
    - Select **Add a subgroup**.
    - Use the **OR** operator to search for **Keywords** that are **Equal** to `contract`.
 
-    >![Screenshot showing the query builder in eDiscovery Premium.](./Media/ediscovery-query-builder.png)
+   >![Screenshot showing the query builder in eDiscovery Premium.](./Media/ediscovery-query-builder.png)
 
 1. Select **Next**.
 1. On the **Review your collection and create it** page, select **Submit**, then select **Done** on the **New collection created** page.
@@ -121,7 +121,7 @@ With custodians added, you can now run a collection estimate to get an overview 
 
    >[!note] **Tip**: Once your collection estimate is complete, feel free to experiment building different queries or using the KQL editor for more advanced searches. To do this, select the checkbox to the left of the collection estimate and select **Edit collection**. This will take you directly to the **Define your search query** page. You can modify your query and submit a new collection estimate to explore how your query changes your collection estimate.
 
-    >![Screenshot showing Refresh button and the collection estimate status.](./Media/collection-estimate-status.png)
+   >![Screenshot showing Refresh button and the collection estimate status.](./Media/collection-estimate-status.png)
 
 1. Select the **Legal Data Collection** and explore the collection estimate.
 
@@ -130,7 +130,7 @@ With custodians added, you can now run a collection estimate to get an overview 
    - **Search statistics tab**: Shows detailed statistics from the last collection estimate, including the number of items and data volume.
    - **Collection options tab**: Lists and explains the different options available when configuring a collection, such as including cloud attachments and conversation threads.
 
-    >![Screenshot showing the tabs to explore within the Legal Data Collection collection estimate.](./Media/explore-collection-estimate.png)
+   >![Screenshot showing the tabs to explore within the Legal Data Collection collection estimate.](./Media/explore-collection-estimate.png)
 
 You have successfully created and reviewed a collection named _Legal Data Collection_.
 
@@ -167,7 +167,7 @@ You have successfully committed the collection to a review set.
    1. **Annotate**: Allows users to apply markups, redactions, and other annotations on the document.
    1. **View Metadata**: Displays various metadata associated with the selected document for detailed insights.
 
-    >![Screenshot showing the options available for review sets in eDiscovery Premium.](./Media/review-set.png)
+   >![Screenshot showing the options available for review sets in eDiscovery Premium.](./Media/review-set.png)
 
 1. Once you've explored your review set, you can export items for further analysis.
 
@@ -184,7 +184,7 @@ To save your work and enable further analysis, you will export the search result
 1. Select the checkbox next to the items you wish to export for further analysis.
 1. Select the drop down for **Actions** > **Export**.
 
-    >![Screenshot showing the option to export a review set in eDiscovery Premium.](./Media/export-review-set.png)
+   >![Screenshot showing the option to export a review set in eDiscovery Premium.](./Media/export-review-set.png)
 
 1. On the **Export options** fly-out page on the right, enter:
 
@@ -196,7 +196,7 @@ To save your work and enable further analysis, you will export the search result
 
 1. Select the **Export** button at the bottom of the fly-out page.
 
-    >![Screenshot showing the configuration options for exporting a review set.](./Media/export-options-review-set.png)
+   >![Screenshot showing the configuration options for exporting a review set.](./Media/export-options-review-set.png)
 
 1. You should get a notification stating **A job has been created** to export your review set. Select **OK** on this notification.
 1. To access your exported review set, expand **Premium Cases** from the left navigation pane, then select **Cases**. Select the **Legal Investigation 2024** case then the **Exports** tab from the top navigation.
