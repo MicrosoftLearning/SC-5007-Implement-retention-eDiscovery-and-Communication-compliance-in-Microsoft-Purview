@@ -21,7 +21,7 @@ Tenants must not be converted to a paid subscription. Tenants obtained as a part
 - **Commit the collection to a review set**: Prepare the data for detailed analysis.
 - **Export the search results**: Save the collected data for further review and compliance purposes.
 
->[!note] This lab assumes access to an M365 E5 tenant with data to explore to conduct an investigation. You can still walk through this lab without data, but collections and review sets will yield no results.
+>[!note] **Note**: This lab assumes access to an M365 E5 tenant with data to explore to conduct an investigation. You can still walk through this lab without data, but collections and review sets will yield no results.
 
 ## Task 1 - Grant permissions for eDiscovery (Premium)
 
@@ -119,7 +119,7 @@ With custodians added, you can now run a collection estimate to get an overview 
 1. On the **Review your collection and create it** page, select **Submit**, then select **Done** on the **New collection created** page.
 1. Back on the **Collections** page, review the progress of your collection estimate. Use the **Refresh** button to refresh the page and check the status of the collection estimate. Once the status of your estimate updates to **Estimated**, and the **Preview status** updates to **Successful**, your collection estimate is complete.
 
-   >[!tip] Once your collection estimate is complete, feel free to experiment building different queries or using the KQL editor for more advanced searches. To do this, select the checkbox to the left of the collection estimate and select **Edit collection**. This will take you directly to the **Define your search query** page. You can modify your query and submit a new collection estimate to explore how your query changes your collection estimate.
+   >[!hint] **Tip**: Once your collection estimate is complete, feel free to experiment building different queries or using the KQL editor for more advanced searches. To do this, select the checkbox to the left of the collection estimate and select **Edit collection**. This will take you directly to the **Define your search query** page. You can modify your query and submit a new collection estimate to explore how your query changes your collection estimate.
 
     >![Screenshot showing Refresh button and the collection estimate status.](./Media/collection-estimate-status.png)
 
@@ -203,6 +203,6 @@ To save your work and enable further analysis, you will export the search result
 1. Select the **LegalCaseExport_July2024** export.
 1. On the **LegalCaseExport_July2024** fly-out page on the right, select the checkbox next to the left of each exported file and select **Download**. This will download a .csv summary and a zip file of exported items.
 
-   >[!tip] You might need to disable your pop-up blocker to successfully download exported files.
+   >[!hint] **Tip**: You might need to disable your pop-up blocker to successfully download exported files.
 
 You have successfully exported the search results for review.
