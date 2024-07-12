@@ -72,7 +72,10 @@ You have successfully created retention labels for financial records with a seve
 
 Following Task 1, you will now publish the retention labels so they are available for users to apply to documents in Exchange emails and SharePoint documents.
 
-1. You should still be on the **File plan** page in the Microsoft Purview portal. If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select **View all solutions**, then select **Records Management** > **File plan**.
+1. You should still be on the **File plan** page in the Microsoft Purview portal.
+
+   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com` and log in. Select **View all solutions**, then select **Records Management** > **File plan**.
+
 1. Select the check mark next to the **Financial Records** retention label, then select the **Publish labels** button.
 
     >![Screenshot showing where to select the retention label and the publish labels button.](./Media/publish-labels.png)
@@ -102,7 +105,10 @@ You have successfully published the retention label for financial records.
 
 Following Task 1, you will now auto-apply the HR Records retention label so that information is retained.
 
-1. You should still be in **Records Management** in the Microsoft Purview portal. If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select **View all solutions**, then select **Records Management**.
+1. You should still be in **Records Management** in the Microsoft Purview portal. 
+
+   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select **View all solutions**, then select **Records Management**.
+
 1. On the left navigation pane, expand **Policies**, then select **Label policies**.
 1. Select **Auto-apply a label** to start the **Create auto-labeling policy** configuration.
 1. On the **Let's get started** page, for **Name** and **Description** enter the following information:
@@ -111,7 +117,7 @@ Following Task 1, you will now auto-apply the HR Records retention label so that
    - **Description**: `HR Records auto-applied retention label, with a retention period of five years for all locations.`
 1. Select **Next**.
 1. On the **Choose the type of content you want to apply this label to** page select **Apply label to content that contains sensitive info** then select **Next**.
-1. On the **Content that contains sensitive info page**, select the **Enhanced** category and the the **U.S. Personally Identifiable Information (PII) Data Enhanced regulation**, then select **Next**.
+1. On the **Content that contains sensitive info page**, select the **Enhanced** category and the **U.S. Personally Identifiable Information (PII) Data Enhanced regulation**, then select **Next**.
 
     >![Screenshot showing the PII sensitive information type selected for an auto-apply retention label.](./Media/sensitive-info-pii.png)
 
