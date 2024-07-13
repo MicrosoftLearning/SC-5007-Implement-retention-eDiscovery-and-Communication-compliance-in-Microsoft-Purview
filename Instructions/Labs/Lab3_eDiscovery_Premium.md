@@ -14,6 +14,8 @@ Tenants must not be converted to a paid subscription. Tenants obtained as a part
 
 # Exercise 3 skilling tasks
 
+Your task is to create and manage eDiscovery cases that meet the investigation criteria:
+
 - **Create a new eDiscovery case**: Set up a new case to begin your investigation.
 - **Add custodians to the case**: Include relevant individuals who may have pertinent data.
 - **Create and run a collection estimate**: Analyze data volume and relevance for the investigation.
@@ -119,9 +121,9 @@ With custodians added, you can now run a collection estimate to get an overview 
 1. On the **Review your collection and create it** page, select **Submit**, then select **Done** on the **New collection created** page.
 1. Back on the **Collections** page, review the progress of your collection estimate. Use the **Refresh** button to refresh the page and check the status of the collection estimate. Once the status of your estimate updates to **Estimated**, and the **Preview status** updates to **Successful**, your collection estimate is complete.
 
-    >**Tip**: Once your collection estimate is complete, feel free to experiment building different queries or using the KQL editor for more advanced searches. To do this, select the checkbox to the left of the collection estimate and select **Edit collection**. This will take you directly to the **Define your search query** page. You can modify your query and submit a new collection estimate to explore how your query changes your collection estimate.
-
     >![Screenshot showing Refresh button and the collection estimate status.](./Media/collection-estimate-status.png)
+
+    >**Tip**: Once your collection estimate is complete, feel free to experiment building different queries or using the KQL editor for more advanced searches. To do this, select the checkbox to the left of the collection estimate and select **Edit collection**. This will take you directly to the **Define your search query** page. You can modify your query and submit a new collection estimate to explore how your query changes your collection estimate.
 
 1. Select the **Legal Data Collection** and explore the collection estimate.
 
