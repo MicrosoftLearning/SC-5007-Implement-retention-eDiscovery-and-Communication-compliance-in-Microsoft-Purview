@@ -23,7 +23,7 @@ Your task is to create and manage eDiscovery cases that meet the investigation c
 - **Commit the collection to a review set**: Prepare the data for detailed analysis.
 - **Export the search results**: Save the collected data for further review and compliance purposes.
 
->**Note**: This lab assumes access to an M365 E5 tenant with data to explore to conduct an investigation. You can still walk through this lab without data, but collections and review sets will yield no results.
+>**Note**: This lab assumes access to an M365 E5 tenant with data to explore to conduct an investigation. You can still walk through this exercise without data, but collections and review sets will yield no results.
 
 ## Task 1 - Grant permissions for eDiscovery (Premium)
 
