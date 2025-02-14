@@ -30,13 +30,9 @@ Here, you will create a retention policy that applies to the entire organization
 
     >![Screenshot showing the Welcome to the new Microsoft Purview portal screen.](./Media/welcome-purview-portal.png)
 
-1. Select **View all solutions**.
-1. Under **Data Governance** select the **Data Lifecycle Management** card.
-
-    >![Screenshot showing the Data Lifecycle Management card in the new Microsoft Purview portal.](./Media/data-lifecycle-management-card.png)
-
+1. Select **Solutions** > **Data Lifecycle Management**.
 1. Expand **Policies** then select **Retention policies** from the left navigation pane.
-1. Select **+ New retention policies**.
+1. Select **+ New retention policy**.
 1. On the **Name your retention policy** page, enter the Name and Description:
 
    - **Name**: `Company wide`
@@ -63,8 +59,6 @@ Here, you will create a retention policy that applies to the entire organization
 1. Select **Next**.
 1. On the **Review and finish page**, select **Submit**.
 1. Once your policy is created, select **Done**.
-
-You have successfully created a retention policy for various locations. This policy retains items for three years from the last modified date.
 
 You have successfully created a company-wide retention policy that retains items for three years from the last modified date.
 
@@ -136,7 +130,7 @@ In this task, you will use PowerShell to create and manage retention policies.
     Connect-IPPSSession
     ```
 
-1. If prompted, sign in as a user with appropriate permissions.
+1. When prompted, sign in as a user with appropriate permissions.
 1. Run the following cmdlet to create the first retention policy for all locations except teams:
 
     ```powershell
@@ -156,8 +150,7 @@ You have successfully created retention policies through PowerShell with a three
 Here, you will create a retention policy with adaptive scope targeting specific departments like Legal and Retail.
 
 1. In Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in.
-1. Select **View all solutions**.
-1. Under **Core** select the **Settings** card.
+1. Select **Settings** from the left navigation bar.
 1. Expand **Roles and scopes** then select **Adaptive scopes**.
 1. On the **Adaptive scopes** page select **+ Create scope**.
 1. On the **Name your adaptive policy scope page**, enter:
@@ -174,19 +167,18 @@ Here, you will create a retention policy with adaptive scope targeting specific 
    - **Operator**: is equal to
    - **Value**: `Legal`
 
-1. Add a second attribute by select the **+ Add attribute** button with values:
+1. Add a second attribute by selecting the **+ Add attribute** button with values:
 
    - **Query operator**: Or
    - **Attribute**: Department
    - **Operator**: is equal to
-   - **Value**: Retail
+   - **Value**: `Retail`
 
     >![Screenshot showing the query to define users values.](./Media/query-to-define-users.png)
 
 1. Select **Next** and then **Submit** on the **Review and finish** page.
 1. Once your scope has been created select **Done** to get back to the **Adaptive scopes** page.
-1. Select **Home** from the left navigation pane to navigate back to the main page of the Microsoft Purview portal.
-1. Select **View all solutions** then **Data Lifecycle Management** under **Data Governance**.
+1. Select **Solutions** > **Data Lifecycle Management**.
 1. Expand **Policies** then select **Retention policies**.
 1. On the **Retention policies** page select **+ New retention policy**.
 1. On the **Name your retention policy page**, enter:
@@ -198,7 +190,12 @@ Here, you will create a retention policy with adaptive scope targeting specific 
 1. On the **Policy Scope** page, select **Next**.
 1. On the **Choose the type of retention policy to create** page, select **Adaptive** and then **Next**.
 1. On the **Choose adaptive policy scopes and locations** page, select **+ Add scopes** and choose the **Legal Documents Retention** scope.
-1. Under **Choose locations to apply the policy** ensure **Exchange mailboxes** and **OneDrive accounts** are enabled, then select **Next**.
+1. Under **Choose locations to apply the policy** enable:
+
+  - Exchange mailboxes
+  - OneDrive accounts
+
+1. Select **Next**.
 1. On the **Decide if you want to retain content, delete it, or both** page, enter:
 
    - **Retain items for a specific period**: 5 years
