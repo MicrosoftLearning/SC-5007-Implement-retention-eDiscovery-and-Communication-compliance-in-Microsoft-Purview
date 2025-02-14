@@ -26,7 +26,7 @@ Your task is to create and manage retention policies that meet the required crit
 Here, you will create a retention policy that applies to the entire organization.
 
 1. In Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in.
-1. A message about the new Microsoft Purview portal will appear on the screen. Select the option to agree with the terms of data flow disclosure and the privacy statement, then select **Try now**.
+1. A message about the new Microsoft Purview portal will appear on the screen. Select the option to agree with the terms of data flow disclosure and the privacy statement, then select **Get started**.
 
     >![Screenshot showing the Welcome to the new Microsoft Purview portal screen.](./Media/welcome-purview-portal.png)
 
@@ -192,8 +192,8 @@ Here, you will create a retention policy with adaptive scope targeting specific 
 1. On the **Choose adaptive policy scopes and locations** page, select **+ Add scopes** and choose the **Legal Documents Retention** scope.
 1. Under **Choose locations to apply the policy** enable:
 
-  - Exchange mailboxes
-  - OneDrive accounts
+   - Exchange mailboxes
+   - OneDrive accounts
 
 1. Select **Next**.
 1. On the **Decide if you want to retain content, delete it, or both** page, enter:
