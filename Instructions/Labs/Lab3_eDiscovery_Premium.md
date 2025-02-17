@@ -35,7 +35,10 @@ To export files, you need specific permissions due to the direct access this opt
 1. On the **Role groups for Microsoft Purview solutions** select **eDiscovery Manager**.
 1. On the **eDiscovery Manager** fly-out page on the right, select **Edit**.
 1. On the **Manage eDiscovery Manager** page, select **Choose users**.
-1. On the **Choose users** fly-out page on the right, select the user you will be using to conduct this interactive exercise, then select **Select**.
+1. On the **Choose users** fly-out page on the right, select the user you will be using to conduct the eDiscovery investigation in the next steps, then select **Select**.
+
+    >**Note**: Ensure you select the user that will be reviewing data and exporting search results.
+
 1. Back on the **Manage eDiscovery Manager** page, select **Next**.
 1. On the **Manage eDiscovery Administrator** page, select **Next**.
 1. On the **Review the role group and finish** page, select **Save** to add your user to the eDiscovery Manager role group.
