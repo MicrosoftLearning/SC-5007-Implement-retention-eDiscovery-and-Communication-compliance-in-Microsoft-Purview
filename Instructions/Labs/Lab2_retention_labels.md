@@ -25,8 +25,7 @@ Your task is to create and manage retention labels that meet the required criter
 In this task, you will create retention labels that can be assigned to documents and emails.
 
 1. In Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in.
-1. Select **View all solutions**.
-1. Under **Risk & Compliance** select the **Records Management** card.
+1. Select **Solutions** > **Records Management**.
 1. In the left navigation pane, select **File plan**.
 1. On the **File plan** page select **+ Create a label**.
 1. On the **Name your retention label** page input:
@@ -48,7 +47,7 @@ In this task, you will create retention labels that can be assigned to documents
 1. On the **Review and finish page**, select **Create label**.
 1. On the **Your retention label is created** page, select **Do Nothing** then select **Done**. The label will be published later in the exercise.
 1. Back on the **File plan** page, select **+ Create a label** to create another retention label.
-1. On the **Name your retention label** page input:
+1. On the **Name your retention label** page enter:
 
     - **Name**: `HR Records`
     - **Description for users**: `This label is auto-applied to HR records with a retention period of five years.`
@@ -73,9 +72,6 @@ You have successfully created retention labels for financial records with a seve
 Following Task 1, you will now publish the retention labels so they are available for users to apply to documents in Exchange emails and SharePoint documents.
 
 1. You should still be on the **File plan** page in the Microsoft Purview portal.
-
-   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com` and log in. Select **View all solutions**, then select **Records Management** > **File plan**.
-
 1. Select the check mark next to the **Financial Records** retention label, then select the **Publish labels** button.
 
     >![Screenshot showing where to select the retention label and the publish labels button.](./Media/publish-labels.png)
@@ -91,7 +87,7 @@ Following Task 1, you will now publish the retention labels so they are availabl
    - OneDrive accounts
 
 1. Ensure Microsoft 365 Group mailboxes & sites is set to **Off**, then select **Next**.
-1. On the **Name your policy page** input:
+1. On the **Name your policy page** enter:
 
    - Name: `Financial Records Retention Label`
    - Description: `Retention label for financial records with a seven-year retention period.`
@@ -105,9 +101,9 @@ You have successfully published the retention label for financial records.
 
 Following Task 1, you will now auto-apply the HR Records retention label so that information is retained.
 
-1. You should still be in **Records Management** in the Microsoft Purview portal. 
+1. You should still be in **Records Management** in the Microsoft Purview portal.
 
-   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select **View all solutions**, then select **Records Management**.
+   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select **Solutions** > **Records Management**.
 
 1. On the left navigation pane, expand **Policies**, then select **Label policies**.
 1. Select **Auto-apply a label** to start the **Create auto-labeling policy** configuration.
