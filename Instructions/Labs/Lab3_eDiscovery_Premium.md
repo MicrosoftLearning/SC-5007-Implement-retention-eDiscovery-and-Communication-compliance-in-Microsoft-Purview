@@ -100,6 +100,10 @@ With custodians added, you can now run a collection estimate to get an overview 
 1. On the **Define your search query** page, use the query builder to build a search  to find content relevant to the case:
 
    - Use the **AND** operator to search for **Keywords** that are **Equal** to `legal`.
+
+    >**Note**: You might need to delete the option to **Select a filter** after creating the search query to find keywords that equal **legal**. If this option is present, it prevents you from adding the subgroup in the next step.
+    >![Screenshot showing the query builder in eDiscovery Premium.](./Media/ediscovery-subgroup-bug.png)
+
    - Select **Add a subgroup**.
    - Use the **OR** operator to search for **Keywords** that are **Equal** to `contract`.
 
