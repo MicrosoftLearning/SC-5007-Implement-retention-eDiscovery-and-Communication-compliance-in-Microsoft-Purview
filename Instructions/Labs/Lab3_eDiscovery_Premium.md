@@ -129,9 +129,6 @@ You have successfully created and reviewed a collection named _Legal Data Collec
 Once the collection is satisfactory, commit it to a review set for detailed analysis.
 
 1. After creating the collection estimate in the previous task, you should still be in the **Collections** tab of the **Legal Investigation 2024** case.  
-
-   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select the **eDiscovery** card under the **Risk & Compliance** section. Select **Premium Cases** > **Cases** > **Legal Investigation 2024** > **Collections** tab.
-
 1. Select the **Legal Data Collection** collection.
 1. On the **Legal Data Collection** fly-out page on the right, select **Commit collection**.
 1. On the **Commit items to a review set** page, ensure the **Add to new review set** option is selected, and name it `Legal Case Review`.

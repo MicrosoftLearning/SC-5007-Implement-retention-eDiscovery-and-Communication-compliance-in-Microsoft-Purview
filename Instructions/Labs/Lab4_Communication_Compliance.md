@@ -22,17 +22,16 @@ Tenants must not be converted to a paid subscription. Tenants obtained as a part
 In this task, you will create a policy using a predefined template to quickly address common compliance scenarios.
 
 1. In Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in.
-1. Select **View all solutions**.
-1. Under **Risk & Compliance** select the **Communication Compliance** card.
+1. Select **Solutions** > **Communication Compliance**.
 1. In the left navigation pane, select **Policies**.
 1. Select **Create policy** and review the available policy templates:
 
-   - **Copilot interactions**: Monitors all interactions with Copilot for Microsoft 365.
+   - **Microsoft Copilot interactions**: Monitors all interactions with Copilot for Microsoft 365.
    - **Inappropriate content**: Detects hate, violence, sexual content, and self-harm in Microsoft Teams.
    - **Inappropriate text**: Flags threats, discrimination, and harassment in Exchange Online, Microsoft Teams, and Viva Engage.
    - **Inappropriate images**: Identifies adult and racy images in Exchange Online and Microsoft Teams.
    - **Sensitive information**: Monitors sensitive information across Exchange Online, Microsoft Teams, and Viva Engage with a lower review percentage.
-   - **Regulatory compliance**: Ensures compliance with financial regulations in Exchange Online, Microsoft Teams, and Viva Engage.
+   - **Financial regulatory compliance**: Ensures compliance with financial regulations in Exchange Online, Microsoft Teams, and Viva Engage.
    - **Conflict of interest**: Detects potential conflicts of interest internally within Exchange Online, Microsoft Teams, and Viva Engage.
 
 1. Select the policy template for **Detect inappropriate text**.
@@ -46,9 +45,6 @@ You have successfully created a communication compliance policy using the **Dete
 Here you will modify a policy template to tailor it to specific organizational needs.
 
 1. You should still be on the **Policies** page within **Communication Compliance** in the Microsoft Purview portal.
-
-   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com` and log in. Select **View all solutions** > **Communication Compliance** card under **Risk & Compliance**.
-
 1. Select **Create policy** > **Detect inappropriate images**.
 1. On the **Detect communications for inappropriate images** fly-out page on the right, select **Customize policy** at the bottom of the fly-out page.
 1. Select **Customize policy** at the bottom of the fly-out page.
@@ -71,9 +67,6 @@ You have successfully customized a communication compliance policy using the **D
 In this task, you will build a communication compliance policy from scratch to meet unique compliance requirements.
 
 1. You should still be on the **Policies** page within **Communication Compliance** in the Microsoft Purview portal.
-
-   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com` and log in. Select **View all solutions** > **Communication Compliance** card under **Risk & Compliance**.
-
 1. Select **Create policy** > **Custom policy**.
 1. On the **Name and describe your policy** page, enter:
 
@@ -97,8 +90,7 @@ In this task, you will build a communication compliance policy from scratch to m
 
 1. Select **Next**.
 1. On the **Choose conditions and review percentage** page, leave the defaults selected for **Communication direction**.
-1. Under **Conditions**, enable the option to use the **New condition builder (preview)**.
-1. Select **+ Add condition** > **Content matches trainable classifier**.
+1. Under **Conditions**, select **+ Add condition** > **Content matches trainable classifier**.
 1. Under **Content matches trainable classifiers** select **Add** > **Trainable classifiers**.
 1. On the **Trainable classifiers** fly-out page on the right, select classifiers for **Regulatory Collusion**, **Stock manipulation**, **Unauthorized disclosure**, and **Corporate Sabotage**.
 1. Select **Add** at the bottom of the **Trainable classifiers** fly-out page on the right.
