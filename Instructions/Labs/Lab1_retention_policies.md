@@ -145,6 +145,8 @@ In this task, you will use PowerShell to create and manage retention policies.
 
 You have successfully created retention policies through PowerShell with a three-year retention period.
 
+<!--- Commenting out until adaptive scope issue is resolved
+
 ## Task 4 – Create retention policy with adaptive scope
 
 Here, you will create a retention policy with adaptive scope targeting specific departments like Legal and Retail.
@@ -206,3 +208,5 @@ Here, you will create a retention policy with adaptive scope targeting specific 
 1. Once your policy is created, select **Done**.
 
 You have successfully applied an adaptive scope to a retention policy.
+
+--->
