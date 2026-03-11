@@ -1,7 +1,12 @@
 ---
 lab:
-    task: 'Create retention labels'
-    exercise: 'Exercise 2 - Create retention labels'
+  task: Create retention labels
+  exercise: Exercise 2 - Create retention labels
+  title: Exercise 2 skilling tasks
+  description: In this task, you will create retention labels that can be assigned to documents and emails.
+  duration: 126 minutes
+  level: 200
+  islab: true
 ---
 
 ## WWL Tenants - Terms of use
