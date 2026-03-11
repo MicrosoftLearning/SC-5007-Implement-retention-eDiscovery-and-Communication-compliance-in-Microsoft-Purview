@@ -1,7 +1,14 @@
 ---
 lab:
-    task: 'Case investigation with eDiscovery'
-    exercise: 'Exercise 3 - Case investigation with eDiscovery'
+  task: Case investigation with eDiscovery
+  exercise: Exercise 3 - Case investigation with eDiscovery
+  title: Exercise 3 skilling tasks
+  description: If you are being provided with a tenant as a part of an instructor-led
+    training delivery, please note that the tenant is made available for the purpose
+    of supporting the hands-on labs in the instructor-led training.
+  duration: 5 minutes
+  level: 100
+  islab: true
 ---
 
 ## WWL Tenants - Terms of use
