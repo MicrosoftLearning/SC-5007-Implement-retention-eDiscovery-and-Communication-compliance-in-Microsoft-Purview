@@ -1,7 +1,14 @@
 ---
 lab:
-    task: 'Configure Retention Policies'
-    exercise: 'Exercise 1 - Configure Retention Policies'
+  task: Configure Retention Policies
+  exercise: Exercise 1 - Configure Retention Policies
+  title: Exercise 1 skilling tasks
+  description: If you are being provided with a tenant as a part of an instructor-led
+    training delivery, please note that the tenant is made available for the purpose
+    of supporting the hands-on labs in the instructor-led training.
+  duration: 140 minutes
+  level: 200
+  islab: true
 ---
 
 ## WWL Tenants - Terms of use
