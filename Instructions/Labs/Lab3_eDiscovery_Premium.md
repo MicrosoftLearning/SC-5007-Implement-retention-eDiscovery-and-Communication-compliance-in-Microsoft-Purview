@@ -1,7 +1,12 @@
 ---
 lab:
-    task: 'Case investigation with eDiscovery'
-    exercise: 'Exercise 3 - Case investigation with eDiscovery'
+  task: Case investigation with eDiscovery
+  exercise: Exercise 3 - Case investigation with eDiscovery
+  title: Exercise 3 skilling tasks
+  description: After your case is created, it will take you directly to your new case.
+  duration: 5 minutes
+  level: 100
+  islab: true
 ---
 
 ## WWL Tenants - Terms of use
