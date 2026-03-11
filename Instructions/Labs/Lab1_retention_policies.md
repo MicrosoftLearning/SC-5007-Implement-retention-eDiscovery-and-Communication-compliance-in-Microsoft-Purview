@@ -1,7 +1,12 @@
 ---
 lab:
-    task: 'Configure Retention Policies'
-    exercise: 'Exercise 1 - Configure Retention Policies'
+  task: Configure Retention Policies
+  exercise: Exercise 1 - Configure Retention Policies
+  title: Exercise 1 skilling tasks
+  description: In this task, you will use PowerShell to create and manage retention policies.
+  duration: 140 minutes
+  level: 200
+  islab: true
 ---
 
 ## WWL Tenants - Terms of use
