@@ -1,8 +1,14 @@
 ---
 lab:
-    task: 'Configure Communication Compliance'
-    exercise: 'Exercise 4 - Configure Communication Compliance'
+  task: Configure Communication Compliance
+  exercise: Exercise 4 - Configure Communication Compliance
+  title: Exercise 4 skilling tasks
+  description: In this task, you will create a policy using a predefined template to quickly address common compliance scenarios.
+  duration: 84 minutes
+  level: 200
+  islab: true
 ---
+
 ## WWL Tenants - Terms of use
 
 If you are being provided with a tenant as a part of an instructor-led training delivery, please note that the tenant is made available for the purpose of supporting the hands-on labs in the instructor-led training.
