@@ -2,12 +2,13 @@
 lab:
   task: Case investigation with eDiscovery
   exercise: Exercise 3 - Case investigation with eDiscovery
-  title: Exercise 3 skilling tasks
-  description: After your case is created, it will take you directly to your new case.
-  duration: 5 minutes
-  level: 100
+  title: Case investigation with eDiscovery
+  description: Create and manage an eDiscovery case, perform searches, review and tag results, apply redactions, and export findings for investigation.
+  duration: 90 minutes
+  level: 200
   islab: true
 ---
+
 
 ## WWL Tenants - Terms of use
 
@@ -17,7 +18,7 @@ Tenants should not be shared or used for purposes outside of hands-on labs. The 
 
 Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time.
 
-# Exercise 3 skilling tasks
+# Case investigation with eDiscovery
 
 Contoso suspects that sensitive payment data, including credit card and account numbers, has been mishandled or leaked. As the investigator, your job is to use Microsoft Purview eDiscovery to build a case, search across data sources, identify sensitive content, and apply redactions before producing the results for compliance or legal review.
 

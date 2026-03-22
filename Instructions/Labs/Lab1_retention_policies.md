@@ -1,13 +1,14 @@
 ---
 lab:
-  task: Configure Retention Policies
-  exercise: Exercise 1 - Configure Retention Policies
-  title: Exercise 1 skilling tasks
-  description: In this task, you will use PowerShell to create and manage retention policies.
-  duration: 140 minutes
+  task: Configure retention policies
+  exercise: Exercise 1 - Configure retention policies
+  title: Configure retention policies
+  description: Create and manage retention policies across locations, including scoped policies and PowerShell-based configuration in Microsoft Purview.
+  duration: 90 minutes
   level: 200
   islab: true
 ---
+
 
 ## WWL Tenants - Terms of use
 
@@ -17,7 +18,7 @@ Tenants should not be shared or used for purposes outside of hands-on labs. The 
 
 Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time.
 
-# Exercise 1 skilling tasks
+# Configure retention policies
 
 Your task is to create and manage retention policies that meet the required criteria:
 
