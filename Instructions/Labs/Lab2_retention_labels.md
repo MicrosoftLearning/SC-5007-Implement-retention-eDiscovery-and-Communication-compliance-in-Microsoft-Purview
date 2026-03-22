@@ -1,7 +1,12 @@
 ---
 lab:
-    task: 'Create retention labels'
-    exercise: 'Exercise 2 - Create retention labels'
+  task: Create retention labels
+  exercise: Exercise 2 - Create retention labels
+  title: Create retention labels
+  description: Create, publish, and auto-apply retention labels to manage data retention across Microsoft 365.
+  duration: 90 minutes
+  level: 200
+  islab: true
 ---
 
 ## WWL Tenants - Terms of use
@@ -12,7 +17,7 @@ Tenants should not be shared or used for purposes outside of hands-on labs. The 
 
 Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time.
 
-# Exercise 2 skilling tasks
+# Create retention labels
 
 Your task is to create and manage retention labels that meet the required criteria:
 

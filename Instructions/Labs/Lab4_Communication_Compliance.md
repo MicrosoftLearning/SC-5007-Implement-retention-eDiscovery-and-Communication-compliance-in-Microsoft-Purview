@@ -1,8 +1,14 @@
 ---
 lab:
-    task: 'Configure Communication Compliance'
-    exercise: 'Exercise 4 - Configure Communication Compliance'
+  task: Configure Communication Compliance
+  exercise: Exercise 4 - Configure Communication Compliance
+  title: Configure Communication Compliance
+  description: Create communication compliance policies using templates, customize policy settings, and build a custom policy to monitor user communications.
+  duration: 60 minutes
+  level: 200
+  islab: true
 ---
+
 ## WWL Tenants - Terms of use
 
 If you are being provided with a tenant as a part of an instructor-led training delivery, please note that the tenant is made available for the purpose of supporting the hands-on labs in the instructor-led training.
@@ -11,7 +17,7 @@ Tenants should not be shared or used for purposes outside of hands-on labs. The 
 
 Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time.
 
-# Exercise 4 skilling tasks
+# Configure Communication Compliance
 
 - **Predefined template policy**: Create a communication compliance policy using a predefined template.
 - **Customized template policy**: Create a communication compliance policy by modifying a predefined template.
