@@ -27,21 +27,26 @@ Tenants must not be converted to a paid subscription. Tenants obtained as a part
 
 In this task, you will create a policy using a predefined template to quickly address common compliance scenarios.
 
-1. In Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in.
-1. Select **Solutions** > **Communication Compliance**.
-1. In the left navigation pane, select **Policies**.
-1. Select **Create policy** and review the available policy templates:
+1. In Microsoft Edge, navigate to the **Microsoft Purview** portal at `https://purview.microsoft.com`, and log in using the Global Administrator account provided for this lab.
 
-   - **Microsoft Copilot interactions**: Monitors all interactions with Copilot for Microsoft 365.
-   - **Inappropriate content**: Detects hate, violence, sexual content, and self-harm in Microsoft Teams.
-   - **Inappropriate text**: Flags threats, discrimination, and harassment in Exchange Online, Microsoft Teams, and Viva Engage.
-   - **Inappropriate images**: Identifies adult and racy images in Exchange Online and Microsoft Teams.
-   - **Sensitive information**: Monitors sensitive information across Exchange Online, Microsoft Teams, and Viva Engage with a lower review percentage.
-   - **Financial regulatory compliance**: Ensures compliance with financial regulations in Exchange Online, Microsoft Teams, and Viva Engage.
-   - **Conflict of interest**: Detects potential conflicts of interest internally within Exchange Online, Microsoft Teams, and Viva Engage.
+1. Select **Solutions** > **Communication Compliance**.
+
+1. In the left navigation pane, select **Policies**.
+
+1. Select **+ Create policy** and review the available policy templates:
+
+   - **Detect Microsoft Copilot interactions**: Monitors all interactions with Copilot for Microsoft 365.
+   - **Detect Inappropriate content**: Detects hate, violence, sexual content, and self-harm in Microsoft Teams.
+   - **Detect Inappropriate text**: Flags threats, discrimination, and harassment in Exchange Online, Microsoft Teams, and Viva Engage.
+   - **Detect Inappropriate images**: Identifies adult and racy images in Exchange Online and Microsoft Teams.
+   - **Detect Sensitive information**: Monitors sensitive information across Exchange Online, Microsoft Teams, and Viva Engage with a lower review percentage.
+   - **Detect Financial regulatory compliance**: Ensures compliance with financial regulations in Exchange Online, Microsoft Teams, and Viva Engage.
+   - **Detect Conflict of interest**: Detects potential conflicts of interest internally within Exchange Online, Microsoft Teams, and Viva Engage.
 
 1. Select the policy template for **Detect inappropriate text**.
+
 1. On the **Detect communications for inappropriate text** fly-out page on the right, enter the user that will be reviewing communication compliance alerts in the **Reviewers** field.
+
 1. Select **Create policy** at the bottom of the fly-out page, then select **Close** on the **Your policy was created** page.
 
 You have successfully created a communication compliance policy using the **Detect inappropriate text template**.
@@ -51,11 +56,15 @@ You have successfully created a communication compliance policy using the **Dete
 Here you will modify a policy template to tailor it to specific organizational needs.
 
 1. You should still be on the **Policies** page within **Communication Compliance** in the Microsoft Purview portal.
-1. Select **Create policy** > **Detect inappropriate images**.
+
+1. Select **+ Create policy** > **Detect inappropriate images**.
+
 1. On the **Detect communications for inappropriate images** fly-out page on the right, select **Customize policy** at the bottom of the fly-out page.
-1. Select **Customize policy** at the bottom of the fly-out page.
-1. On the **Name and describe your policy** select **Next**.
+
+1. On the **Name and describe your policy** page, select **Next**.
+
 1. On the **Choose users and reviewers** page, enter the user that will be reviewing communication compliance alerts in the **Reviewers** field, then select **Next**.
+
 1. On the **Choose locations to detect communications** page, enable the locations for:
 
    - Exchange.
@@ -63,7 +72,9 @@ Here you will modify a policy template to tailor it to specific organizational n
    - Viva Engage.
 
 1. Select **Next**.
+
 1. On the **Choose conditions and review percentage**, review the default actions for the inappropriate images template, and select **Next**.
+
 1. On the **Review and finish** page, select **Create policy**, then select **Done** on the **Your policy was updated** page.
 
 You have successfully customized a communication compliance policy using the **Detect inappropriate images** template.
@@ -73,13 +84,16 @@ You have successfully customized a communication compliance policy using the **D
 In this task, you will build a communication compliance policy from scratch to meet unique compliance requirements.
 
 1. You should still be on the **Policies** page within **Communication Compliance** in the Microsoft Purview portal.
-1. Select **Create policy** > **Custom policy**.
+
+1. Select **+ Create policy** > **Custom policy**.
+
 1. On the **Name and describe your policy** page, enter:
 
    - **Name**: `Global Communication Compliance Policy`
    - **Description**: `Monitors emails and Teams messages for policy violations.`
 
 1. Select **Next**.
+
 1. On the **Choose users and reviewers** page:
 
    - Under **Choose users and groups** select **All users**.
@@ -87,21 +101,30 @@ In this task, you will build a communication compliance policy from scratch to m
    - In the **Reviewers** field, enter the reviewers who will monitor compliance alerts.
 
 1. Select **Next**.
+
 1. On the **Choose locations to detect communications** only enable:
 
    - Exchange
    - Teams
 
-   Ensure all other locations aren't selected.
+   Ensure all other locations are not selected.
 
 1. Select **Next**.
+
 1. On the **Choose conditions and review percentage** page, leave the defaults selected for **Communication direction**.
+
 1. Under **Conditions**, select **+ Add condition** > **Content matches trainable classifier**.
+
 1. Under **Content matches trainable classifiers** select **Add** > **Trainable classifiers**.
+
 1. On the **Trainable classifiers** fly-out page on the right, select classifiers for **Regulatory Collusion**, **Stock manipulation**, **Unauthorized disclosure**, and **Corporate Sabotage**.
+
 1. Select **Add** at the bottom of the **Trainable classifiers** fly-out page on the right.
+
 1. Back on the **Choose conditions and review percentage** page, adjust the **Review percentage** slider to **25%**.
+
 1. Select **Next** on the bottom of the **Choose conditions and review percentage** page.
+
 1. On the **Review and finish** page, select **Create policy**, then select **Done** on the **Your policy was created** page.
 
 You have successfully created a custom communication compliance policy named _Global Communication Compliance Policy_.
