@@ -37,13 +37,13 @@ Your task is to create and manage eDiscovery cases that meet the investigation c
 
 To export files, you need specific permissions due to the direct access this option grants to user files.
 
-1. In Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in.
+1. In Microsoft Edge, navigate to the **Microsoft Purview** portal at `https://purview.microsoft.com`, and log in using the Global Administrator account provided for this lab.
 
 1. Select the **Settings** from the left navigation pane.
 
-1. On the left navigation pane, expand **Roles and scopes** and select **Role groups**.
+1. On the left navigation pane, expand **Roles and scopes**, then select **Role groups**.
 
-1. On the **Role groups for Microsoft Purview solutions** select **eDiscovery Manager**.
+1. On the **Role groups for Microsoft Purview solutions** page, select **eDiscovery Manager**.
 
 1. On the **eDiscovery Manager** fly-out page on the right, select **Edit**.
 
@@ -99,7 +99,9 @@ In this task, you build a search to find emails and documents that reference sen
 
 1. On the **Search for source** page, **Filter** your sources for **Groups only**.
 
-1. Select **Add tenant-wide sources**, and leave the checkboxes selected for **All people and groups** and **All public folders**.
+1. Select **Save and close**.
+
+1. Back on the **Payment Data Exposure Search** page, select **Add tenant-wide sources**, and leave the checkboxes selected for **All people and groups** and **All public folders**.
 
 1. Select **Save**.
 
@@ -141,9 +143,9 @@ In this task, you commit your search results to a review set so they can be anal
 
    - Enter a name: `Payment Data Review Set`.
 
-1. Under **Select items to include**, keep **Indexed items that match your search query selected**.
+1. Under **Select items to include in the review set**, keep **Indexed items that match your search query** selected.
 
-1. Under **Select items in lists and attachments**, select **List attachments** so attached files are included in the review set.
+1. Under **Select items in lists and attachments**, select **List attachments** to attached files are included in the review set.
 
 1. Leave all other options at their defaults, then select **Add to review set**.
 
@@ -164,14 +166,17 @@ In this task, you filter review set items and apply tags to organize them for th
      - `Visa`
      - `Master Card`
    - Select **+ Add conditions**.
-   - Add condition:
+      
+   - In the **Choose which conditions to add** panel, search for `file`, select **File class**, then select **Apply**.
 
+   - Back on the **Payment Data Review Set** page, configure the condition:
      - Field: **File class**
      - Operator: **Equals any of**
      - Value: `Document`
+
    - Select **Run query**.
 
-1. Select **Save** to save this search query. In the Filter name field, enter `Payment data docs`.
+1. To save this search query, select **Save**. In the Filter name field, enter `Payment data docs`, then select **Save**.
 
 1. From the command bar, select **Tag files**.
 
@@ -183,7 +188,7 @@ In this task, you filter review set items and apply tags to organize them for th
 
      - **Tag name**: `Relevant`
      - Select **Add tag**, then add `Not relevant`
-   - Select **Add tag group**.
+   - Select **+ Add tag group**.
    - **Tag group name**: `Review status`
      - **Tag name**: `Needs redaction`
 
@@ -191,7 +196,7 @@ In this task, you filter review set items and apply tags to organize them for th
 
 1. In the **Tag files** flyout, tag the first item as **Relevant** and the second item as **Not relevant**.
 
-1. In the review set, find **Contoso Purchasing Permissions - Q1.docx** from **Irvin S** dated **August 2, 2019**.
+1. In the review set, find **Contoso Purchasing Permissions - Q1.docx** from **Lee G** dated **May 20, 2026**.
 
 1. Select the item and tag it **Needs redaction**.
 
@@ -203,7 +208,7 @@ You successfully tagged relevant, not relevant, and redaction-needed documents.
 
 In this task, you redact sensitive information from a document in your review set.
 
-1. In the **Payment Data Review Set**, select the **Contoso Purchasing Permissions - Q1.docx** from **Irvin S** dated **August 2, 2019** item to open the document viewer.
+1. In the **Payment Data Review Set**, select the **Contoso Purchasing Permissions - Q1.docx** from **Lee G** dated **May 20, 2026** item to open the document viewer.
 
 1. In the viewer toolbar, select **Annotate**.
 
