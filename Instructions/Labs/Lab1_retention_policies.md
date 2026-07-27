@@ -31,22 +31,29 @@ Your task is to create and manage retention policies that meet the required crit
 
 Here, you will create a retention policy that applies to the entire organization.
 
-1. In Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in.
+1. In Microsoft Edge, navigate to the **Microsoft Purview** portal at `https://purview.microsoft.com`, and log in using the Global Administrator account provided for this lab.
+
 1. A message about the new Microsoft Purview portal will appear on the screen. Select the option to agree with the terms of data flow disclosure and the privacy statement, then select **Get started**.
 
     >![Screenshot showing the Welcome to the new Microsoft Purview portal screen.](./Media/welcome-purview-portal.png)
 
 1. Select **Solutions** > **Data Lifecycle Management**.
-1. Expand **Policies** then select **Retention policies** from the left navigation pane.
+
+1. Expand **Policies**, then select **Retention policies** from the left navigation pane.
+
 1. Select **+ New retention policy**.
+
 1. On the **Name your retention policy** page, enter the Name and Description:
 
    - **Name**: `Company wide`
    - **Description**: `All locations except for teams`
 
 1. Select **Next**.
-1. On the **Policy Scope page**, select **Next**.
+
+1. On the **Policy Scope** page, select **Next**.
+
 1. On the **Choose the type of retention policy to create** page, select **Static** and then select **Next**.
+
 1. On the **Choose where to apply this policy** page, enable:
 
    - Exchange mailboxes
@@ -55,6 +62,7 @@ Here, you will create a retention policy that applies to the entire organization
    - Microsoft 365 Group mailboxes & sites
 
 1. Select **Next**.
+
 1. On the **Decide if you want to retain content, delete it, or both** page, for the **Retain items for a specific period** section, enter the following information:
 
    - **Retain items for a specific period**: Choose **Custom** from the dropdown list
@@ -63,7 +71,9 @@ Here, you will create a retention policy that applies to the entire organization
    - **At the end of the retention period**: Delete items automatically
 
 1. Select **Next**.
-1. On the **Review and finish page**, select **Submit**.
+
+1. On the **Review and finish** page, select **Submit**.
+
 1. Once your policy is created, select **Done**.
 
 You have successfully created a company-wide retention policy that retains items for three years from the last modified date.
@@ -74,36 +84,46 @@ Here, you will create retention policies specifically for Teams channels and cha
 
 1. You should still be on the **Retention policies** screen in the Microsoft Purview portal.
 
-   If not, in Microsoft Edge, navigate to the Microsoft Purview portal, `https://purview.microsoft.com`, and log in. Select the **Data Lifecycle Management** > **Policies** > **Retention policies**  card once logged in.
+   If not, in Microsoft Edge, navigate to the **Microsoft Purview** portal at `https://purview.microsoft.com`, and log in. Select the **Data Lifecycle Management** > **Policies** > **Retention policies**  card once logged in.
 
 1. Select **+ New retention policy**.
+
 1. On the **Name your retention policy** page, enter the Name and Description:
 
    - **Name**: `Teams Retention`
    - **Description**: `Retention for Teams locations`
 
 1. Select **Next**.
+
 1. On the **Policy Scope** page, select **Next**.
+
 1. On the **Choose the type of retention policy to create** page, select **Static** and then select **Next**.
+
 1. In the Choose locations to apply the policy section, enable:
 
    - Teams channel messages
-   - Teams chats and Copilot interactions
+   - Teams chats 
 
    Ensure all other options are disabled.
 
-1. For the **Teams chat and Copilot interactions** location, select the **Edit** link under **All users** and add two users.
+1. For the **Teams chats** location, select the **Edit** link under **All users**, then add two users.
 
-    >![Screenshot showing the Add users option for Teams chats and Copilot interactions.](./Media/add-users-retention-policy.png)
+    >**Note**: Only licensed users can be selected (for example, Adele Vance, Alex Wilber). Adding unlicensed users will result in an error.
 
-1. On the **Teams chats and Copilot interactions** flyout page, once the users are added, select **Done** then select **Next**.
-1. **On the Decide if you want to retain content, delete it, or both** page, enter:
+    >![Screenshot showing the Add users option for Teams chats.](./Media/add-users-retention-policy.png)
+
+1. On the **Teams chats** flyout page, once the users are added, select **Done** then select **Next**.
+
+1. On the **Decide if you want to retain content, delete it, or both** page, enter:
+
    - **Retain items for a specific period**: Choose **Custom** from the dropdown list.
-   - Change the years field to 3.
+   - Change the years field to **3**.
    - **Start the retention period based on**: When items were last modified.
 
 1. Select **Next**.
-1. On the **Review and finish page**, select **Submit**.
+
+1. On the **Review and finish** page, select **Submit**.
+
 1. Once your policy is created, select **Done**.
 
 You have successfully created a retention policy for Teams locations with a three-year retention period, applying a filter for specific users.
@@ -112,24 +132,30 @@ You have successfully created a retention policy for Teams locations with a thre
 
 In this task, you will use PowerShell to create and manage retention policies.
 
-1. Open an elevated PowerShell window.
+1. Open an elevated PowerShell window by right-clicking the **Start** button, then selecting **Terminal (Admin)**.
+
 1. Enter the following cmdlet to install the latest Exchange Online PowerShell module version:
 
     ```powershell
     Install-Module ExchangeOnlineManagement
     ```
 
-1. Confirm the NuGet provider security dialog with **Y** for Yes and press **Enter**. This process may take some time to complete.
-1. Confirm the Untrusted repository security dialog with **Y** for Yes and press **Enter**.  This process may take some time to complete.
+1. If prompted to install the NuGet provider, type **Y** for Yes and press **Enter**. This process may take some time to complete.
+
+1. If prompted with an Untrusted repository warning, type **Y** for Yes and press **Enter**. This process may take some time to complete.
+
 1. Enter the following cmdlet to change your execution policy and press **Enter**. The command assumes you're logged in as a user with appropriate permissions.
 
     ```powershell
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
     ```
 
-1. Confirm the Execution Policy Change with  **Y** for Yes and press **Enter**.
+1. If prompted to confirm the execution policy change, type **Y** for Yes and press **Enter**.
+
 1. Close the PowerShell window.
-1. Open a regular PowerShell window, without elevation, by selecting the Windows button with the right mouse button and select **Windows PowerShell**.
+
+1. Open a regular PowerShell window (without elevation) by right-clicking the **Start** button and selecting **Terminal**.
+
 1. Connect to the Security & Compliance Center in your tenant with the following cmdlet:
 
     ```powershell
@@ -137,6 +163,7 @@ In this task, you will use PowerShell to create and manage retention policies.
     ```
 
 1. When prompted, sign in as a user with appropriate permissions.
+
 1. Run the following cmdlet to create the first retention policy for all locations except teams:
 
     ```powershell
